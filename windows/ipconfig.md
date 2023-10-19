@@ -1,5 +1,5 @@
 # ipconfig
-![Alt text](image.png)
+![Alt text](image.png)\
 ipconfig可以查看ip信息，在winodws上。\
 注意wlan暴露的默认网络就是宿舍路由器ip。\
 web登录192.168.1.1就是宿舍的路由器。\
