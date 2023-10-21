@@ -4,3 +4,4 @@
 - [x] help  
 - [x] set
 - [x] ipconfig   
+- [ ] echo
