@@ -8,3 +8,6 @@
 - [x] cls, 清空当前cmd屏幕信息
 - [x] ping, ip层的命令
 - [x] netstat, 显示连接的TCP连接数, 计算机侦听的端口, 以太网统计信息 
+
+# Linux
+- [x] man, manual, manual xxx查看xxx命令
