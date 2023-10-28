@@ -3,6 +3,11 @@
 # Windows
 - [x] help, 提供windows上指令帮助
 - [x] set, 设置当前的环境变量, 临时性
+- [x] setx, 永久性设置环境变量
+```
+setx PATH "C:\Your\Path\Here;%PATH%"
+注意, 添加过来的是目录路径, 譬如exe所在的目录而不是exe本身
+``` 
 - [x] ipconfig, 查看网络ip和dns的信息   
 - [x] echo, 回声
 - [x] cls, 清空当前cmd屏幕信息
@@ -10,7 +15,13 @@
 - [x] netstat, 显示连接的TCP连接数, 计算机侦听的端口, 以太网统计信息 
 
 # Linux
-- [x] man, manual, manual xxx查看xxx命令
+```
+Unix
+    Linux
+    WSL
+```
+
+- [x] man, manual, man xxx查看xxx命令
 
 
 # Chatgpt
