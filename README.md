@@ -13,7 +13,14 @@ setx PATH "C:\Your\Path\Here;%PATH%"
 - [x] cls, 清空当前cmd屏幕信息
 - [x] ping, ip层的命令
 - [x] netstat, 显示连接的TCP连接数, 计算机侦听的端口, 以太网统计信息 
-
+- [x] nslokup, 查询域名系统(DNS)
+- [x] tracert, 路由追踪
+![Alt text](image.png)
+- [x] wsl, windows上的linux子系统
+```
+wsl --list --all
+wsl --unregister Ubuntu
+``` 
 # Linux
 ```
 Unix
@@ -22,6 +29,12 @@ Unix
 ```
 
 - [x] man, manual, man xxx查看xxx命令
+- [x] apt
+```
+apt-get update # 安装依赖更新
+```
+- [x] ifconfig, 查网络网卡ip,dns服务器,默认路由等
+- [x] tcpdump, 网络监听抓包  
 
 
 # Chatgpt
@@ -32,3 +45,5 @@ chatgpt简直是互联网上内容的化身呀...
 ```
 I want you to act as a prompt generator. Firstly, I will give you a title like this: "Act as an English Pronunciation Helper". Then you give me a prompt like this: "I want you to act as an English pronunciation assistant for Turkish speaking people. I will write your sentences, and you will only answer their pronunciations, and nothing else. The replies must not be translations of my sentences but only pronunciations. Pronunciations should use Turkish Latin letters for phonetics. Do not write explanations on replies. My first sentence is "how the weather is in Istanbul?"." (You should adapt the sample prompt according to the title I gave. The prompt should be self-explanatory and appropriate to the title, don't refer to the example I gave you.). My first title is "Act as a Code Review Helper" (Give me prompt only)
 ```
+## 可用的gpt源
+- [x] gtp3.5, https://poe.com/
