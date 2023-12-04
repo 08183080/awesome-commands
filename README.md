@@ -35,6 +35,8 @@ apt-get update # 安装依赖更新
 ```
 - [x] ifconfig, 查网络网卡ip,dns服务器,默认路由等
 - [x] tcpdump, 网络监听抓包  
+- [x] ps, 查看进程, process status, ps aux可以查看所有用户的所有进程
+- [x] top, top可以实时展示当前进程状态
 
 
 # Chatgpt
