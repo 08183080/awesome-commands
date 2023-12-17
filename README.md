@@ -37,6 +37,7 @@ apt-get update # 安装依赖更新
 - [x] tcpdump, 网络监听抓包  
 - [x] ps, 查看进程, process status, ps aux可以查看所有用户的所有进程
 - [x] top, top可以实时展示当前进程状态
+- [ ] date +%s, 用于获取当前时间的Unix时间戳（Unix timestamp）的命令, Unix时间戳是指从格林威治时间1970年1月1日00:00:00（UTC）到当前时间的总秒数
 
 
 # Chatgpt
