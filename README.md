@@ -54,7 +54,7 @@ I want you to act as a prompt generator. Firstly, I will give you a title like t
 - [x] gtp3.5, https://poe.com/
 # Git
 - [ ] git add
- - [ ] git add . 将当前所有的代码修改加入暂存区 
+  - [ ] git add . 将当前所有的代码修改加入暂存区 
 - [ ] git commit
- - [ ] git commit --amend: 覆盖上次的pr, 保证一次pr解决一次问题, 具有唯一的一次commit 
+  - [ ] git commit --amend: 覆盖上次的pr, 保证一次pr解决一次问题, 具有唯一的一次commit 
 - [ ] git stash   
