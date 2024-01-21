@@ -20,7 +20,9 @@ setx PATH "C:\Your\Path\Here;%PATH%"
 ```
 wsl --list --all
 wsl --unregister Ubuntu
-``` 
+```
+- [x] ping: 主要用于测试网络连接的可用性, 但是公司内网可能ping不通外面网站的
+- [x] wget: 主要用于从web服务器下载文件, 支持多种协议和递归下载以及断点续传  
 # Linux
 ```
 Unix
