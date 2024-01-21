@@ -50,3 +50,9 @@ I want you to act as a prompt generator. Firstly, I will give you a title like t
 ```
 ## 可用的gpt源
 - [x] gtp3.5, https://poe.com/
+# Git
+- [ ] git add
+ - [x] git add . 将当前所有的代码修改加入暂存区
+- [ ] git commit
+ - [x] git commit --amend: 覆盖上次的pr, 保证一次pr解决一次问题, 具有唯一的一次commit
+- [ ] git stash   
