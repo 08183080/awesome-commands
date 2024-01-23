@@ -59,4 +59,5 @@ I want you to act as a prompt generator. Firstly, I will give you a title like t
   - [ ] git commit --amend: 覆盖上次的pr, 保证一次pr解决一次问题, 具有唯一的一次commit 
 - [ ] git stash
 - [ ] git pull
-  - [ ] a combination of git fetch + git merge 
+  - [ ] a combination of git fetch + git merge
+  - [ ] git pull --rebase: git pull --rebase 会将你的本地提交应用在对应分支的远程提交之上，而不是创建一个合并提交
