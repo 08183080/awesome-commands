@@ -63,4 +63,6 @@ I want you to act as a prompt generator. Firstly, I will give you a title like t
   - [ ] git pull --rebase: git pull --rebase 会将你的本地提交应用在对应分支的远程提交之上，而不是创建一个合并提交
   - [ ] git checkout
     - [ ] git checkout -b xxx origin/xxx
-      - [ ] 本地创建分支xxx, 该分支追踪远程origin的分支xxx  
+      - [ ] 本地创建分支xxx, 该分支追踪远程origin的分支xxx
+  - [ ] git reset
+    - [ ] 版本回退 
