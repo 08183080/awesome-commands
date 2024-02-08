@@ -56,13 +56,23 @@ I want you to act as a prompt generator. Firstly, I will give you a title like t
 - [ ] git add
   - [ ] git add . 将当前所有的代码修改加入暂存区 
 - [ ] git commit
+  - [ ] git commit -m "xxx": 提交commit, messgae是"xxx" 
   - [ ] git commit --amend: 覆盖上次的pr, 保证一次pr解决一次问题, 具有唯一的一次commit 
 - [ ] git stash
 - [ ] git pull
   - [ ] a combination of git fetch + git merge
   - [ ] git pull --rebase: git pull --rebase 会将你的本地提交应用在对应分支的远程提交之上，而不是创建一个合并提交
   - [ ] git checkout
+    - [ ] git checkout -b xxx: 创建分支xxx 
     - [ ] git checkout -b xxx origin/xxx
       - [ ] 本地创建分支xxx, 该分支追踪远程origin的分支xxx
   - [ ] git reset
-    - [ ] 版本回退 
+    - [ ] 版本回退
+    - [ ] git reset --hard
+  - [ ] git status
+    - [ ] 查看分支状态
+  - [ ] git branch
+    - [ ] git branch 查看本地所有分支
+    - [ ] git branch -d删除, -D强烈删除
+  - [ ] git push
+    - [ ] git push origin xxx: 将本地的分支push到远程上去  
