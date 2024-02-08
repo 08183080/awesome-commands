@@ -59,6 +59,7 @@ I want you to act as a prompt generator. Firstly, I will give you a title like t
   - [ ] git commit -m "xxx": 提交commit, messgae是"xxx" 
   - [ ] git commit --amend: 覆盖上次的pr, 保证一次pr解决一次问题, 具有唯一的一次commit 
 - [ ] git stash
+ - [ ] 本地修改暂时保留 
 - [ ] git pull
   - [ ] a combination of git fetch + git merge
   - [ ] git pull --rebase: git pull --rebase 会将你的本地提交应用在对应分支的远程提交之上，而不是创建一个合并提交
@@ -66,13 +67,18 @@ I want you to act as a prompt generator. Firstly, I will give you a title like t
     - [ ] git checkout -b xxx: 创建分支xxx 
     - [ ] git checkout -b xxx origin/xxx
       - [ ] 本地创建分支xxx, 该分支追踪远程origin的分支xxx
-  - [ ] git reset
-    - [ ] 版本回退
-    - [ ] git reset --hard
-  - [ ] git status
-    - [ ] 查看分支状态
-  - [ ] git branch
-    - [ ] git branch 查看本地所有分支
-    - [ ] git branch -d删除, -D强烈删除
-  - [ ] git push
-    - [ ] git push origin xxx: 将本地的分支push到远程上去  
+ - [ ] git reset
+   - [ ] 版本回退
+   - [ ] git reset --hard
+    - [ ] git reset --hard <commit-hash>
+    - [ ] The **git reset --hard HEAD** command would discard all uncommitted changes even if you’ve added them to the staging area.
+    - [ ] https://www.freecodecamp.org/news/git-reset-hard-how-to-reset-to-head-in-git/
+ - [ ] git status
+   - [ ] 查看分支状态
+ - [ ] git branch
+   - [ ] git branch 查看本地所有分支
+   - [ ] git branch -d删除, -D强烈删除
+ - [ ] git push
+   - [ ] git push origin xxx: 将本地的分支push到远程上去
+ - [ ] git log
+  - [ ] For clarity, run git log --oneline to show your commit history
