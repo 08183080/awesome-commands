@@ -88,6 +88,6 @@ I want you to act as a prompt generator. Firstly, I will give you a title like t
   - [ ] pip list
   - [ ] pip install xxx
    - [ ] pip install --proxy=http://xxx.yyy.zzz:ddd (公司内部代理)
-   - [ ] pip install -i -i http://pypi.douban.com/simple/ （豆瓣源）
+   - [ ] pip install -i http://pypi.douban.com/simple/ （豆瓣源）
   # Notepad++ use
   - [ ] Ctrl+K: 默认是注释键
