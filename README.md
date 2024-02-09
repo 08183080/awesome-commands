@@ -23,8 +23,10 @@ wsl --unregister Ubuntu
 ```
 - [x] ping: 主要用于测试网络连接的可用性, 但是公司内网可能ping不通外面网站的
 - [x] wget: 主要用于从web服务器下载文件, 支持多种协议和递归下载以及断点续传
-- [ ] netstat, 查看端口
- - [ ] netstat -aon|findstr "xxxx": 查看端口xxxx有没有被占用  
+- [x] netstat, 查看端口
+ - [x] netstat -aon|findstr "xxxx": 查看端口xxxx有没有被占用
+- [x] findstr
+- [x] dir, linux上的dir  
 # Linux
 ```
 Unix
@@ -41,8 +43,7 @@ apt-get update # 安装依赖更新
 - [x] tcpdump, 网络监听抓包  
 - [x] ps, 查看进程, process status, ps aux可以查看所有用户的所有进程
 - [x] top, top可以实时展示当前进程状态
-- [ ] date +%s, 用于获取当前时间的Unix时间戳（Unix timestamp）的命令, Unix时间戳是指从格林威治时间1970年1月1日00:00:00（UTC）到当前时间的总秒数
-
+- [x] date +%s, 用于获取当前时间的Unix时间戳（Unix timestamp）的命令, Unix时间戳是指从格林威治时间1970年1月1日00:00:00（UTC）到当前时间的总秒数
 # Chatgpt
 here are some awesome chatgpt prompts.\
 chatgpt必须在国外的ip, 你可以让它act as...(角色扮演)\
