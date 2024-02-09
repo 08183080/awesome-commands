@@ -83,3 +83,8 @@ I want you to act as a prompt generator. Firstly, I will give you a title like t
    - [ ] git push origin xxx: 将本地的分支push到远程上去
  - [ ] git log
    - [ ] For clarity, run git log --oneline to show your commit history
+  # pip
+  - [ ] pip list
+  - [ ] pip install xxx
+   - [ ] pip install --proxy=http://xxx.yyy.zzz:ddd (公司内部代理)
+   - [ ] pip install -i -i http://pypi.douban.com/simple/ （豆瓣源） 
