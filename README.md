@@ -1,6 +1,7 @@
 # awesome-commands
  操作系统/大语言模型上最常用的100条命令
 # Windows
+## single command
 - [x] help, 提供windows上指令帮助
 - [x] set, 设置当前的环境变量, 临时性
 - [x] setx, 永久性设置环境变量
@@ -26,7 +27,13 @@ wsl --unregister Ubuntu
 - [x] netstat, 查看端口
  - [x] netstat -aon|findstr "xxxx": 查看端口xxxx有没有被占用
 - [x] findstr
-- [x] dir, linux上的dir  
+- [x] dir, linux上的dir
+##  combine commands
+### console所有日志保存
+```
+pyinstaller run.spec > run.log 2>&1
+```
+根据run.spec导出exe的过程中, 将错误信息(2)也一起保存, 保存到run.log文件中
 # Linux
 ```
 Unix
@@ -91,3 +98,5 @@ I want you to act as a prompt generator. Firstly, I will give you a title like t
    - [ ] pip install -i http://pypi.douban.com/simple/ （豆瓣源）
   # Notepad++ use
   - [ ] Ctrl+K: 默认是注释键
+# Ideas
+- [ ] 在计算机编程中，0、1、2通常代表的是文件描述符。在Unix和类Unix系统中，0、1、2分别代表标准输入、标准输出和标准错误。0代表的是标准输入（stdin），它通常用于从键盘或其他程序获取输入
