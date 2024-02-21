@@ -34,6 +34,11 @@ wsl --unregister Ubuntu
 pyinstaller run.spec > run.log 2>&1
 ```
 根据run.spec导出exe的过程中, 将错误信息(2)也一起保存, 保存到run.log文件中
+用powershell一条耕好用的命令则是:
+```
+pyinstllaer run.spec | tee run.log
+```
+powershell很power的
 # Linux
 ```
 Unix
