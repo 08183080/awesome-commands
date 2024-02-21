@@ -1,6 +1,10 @@
 # awesome-commands
  操作系统/大语言模型上最常用的100条命令
 # Windows
+## PS command
+### text processsing
+- [x] Select-String, 类似于Unix中的grep,功能>>findstr
+- [x] findstr, 单纯的文本查找
 ## single command
 - [x] help, 提供windows上指令帮助
 - [x] set, 设置当前的环境变量, 临时性
