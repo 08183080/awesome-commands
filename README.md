@@ -103,8 +103,9 @@ I want you to act as a prompt generator. Firstly, I will give you a title like t
   # pip
   - [ ] pip list
   - [ ] pip install xxx
-   - [ ] pip install --proxy=http://xxx.yyy.zzz:ddd (公司内部代理)
-   - [ ] pip install -i http://pypi.douban.com/simple/ （豆瓣源）
+   - [ ] pip install --proxy=http://xxx.yyy.zzz:ddd (公司内部代理)【公司内网梯子代理pip】
+   - [ ] pip install -i http://pypi.douban.com/simple/ （豆瓣源）【国内python源代理】
+   - [ ] pip install xxx==a.b.c 【指定python版本号下载|有些时候得降低版本】
   # Notepad++ use
   - [ ] Ctrl+K: 默认是注释键
 # Ideas
