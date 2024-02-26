@@ -32,7 +32,7 @@ wsl --unregister Ubuntu
  - [x] netstat -aon|findstr "xxxx": 查看端口xxxx有没有被占用
 - [x] findstr
 - [x] dir, linux上的dir
-- [ ] clip, 将内容剪切到剪切板上. dir | clip组合使用
+- [x] clip, 将内容剪切到剪切板上. dir | clip组合使用
 ##  combine commands
 ### console所有日志保存
 ```
