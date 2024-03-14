@@ -121,4 +121,7 @@ I want you to act as a prompt generator. Firstly, I will give you a title like t
 - [ ] 在计算机编程中，0、1、2通常代表的是文件描述符。在Unix和类Unix系统中，0、1、2分别代表标准输入、标准输出和标准错误。0代表的是标准输入（stdin），它通常用于从键盘或其他程序获取输入
 # Operations
 - [x] 在windows上搜索settings, 再搜搜env就可以编辑设置http_proxy, https_proxy这样的环境变量, restart生效
-- [x] 在windows上搜索settings, 再搜索startup就可以设置开机自启软件
+- [x] 在windows上搜索settings, 再搜索startup就可以设置/关闭开机自启软件
+ - [x] win+r, 输入 shell:startup 进入C:\Users\your_name\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup设置开启自启软件
+- [x] win+r, 输入 msinfo32, 查看system information: OS, processor, bios, memory...
+
