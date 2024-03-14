@@ -4,6 +4,7 @@
 ## PS command
 ## env varibales
 - [x] $env:, **临时性设置环境变量, 注意cmd中的set命令丧失作用, 必须用$env:**
+- [x] 在windows上搜索settings, 再搜搜env就可以编辑设置http_proxy, https_proxy这样的环境变量, restart生效
 ### text processsing
 - [x] Select-String, 类似于Unix中的grep,功能>>findstr
 - [x] findstr, 单纯的文本查找
