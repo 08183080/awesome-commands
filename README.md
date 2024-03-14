@@ -5,7 +5,8 @@
 ### text processsing
 - [x] Select-String, 类似于Unix中的grep,功能>>findstr
 - [x] findstr, 单纯的文本查找
-## single command
+## cmd commands
+### single command
 - [x] help, 提供windows上指令帮助
 - [x] set, 设置当前的环境变量, 临时性
 - [x] setx, 永久性设置环境变量
@@ -33,8 +34,8 @@ wsl --unregister Ubuntu
 - [x] findstr
 - [x] dir, linux上的dir
 - [x] clip, 将内容剪切到剪切板上. dir | clip组合使用
-##  combine commands
-### console所有日志保存
+###  combine commands
+#### console所有日志保存
 ```
 pyinstaller run.spec > run.log 2>&1
 ```
