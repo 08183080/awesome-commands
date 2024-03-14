@@ -2,6 +2,8 @@
  操作系统/大语言模型上最常用的100条命令
 # Windows
 ## PS command
+## env varibales
+- [x] $env:, **临时性设置环境变量, 注意cmd中的set命令丧失作用, 必须用$env:**
 ### text processsing
 - [x] Select-String, 类似于Unix中的grep,功能>>findstr
 - [x] findstr, 单纯的文本查找
