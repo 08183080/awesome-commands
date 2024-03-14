@@ -1,6 +1,10 @@
 # awesome-commands
  操作系统/大语言模型上最常用的100条命令
 # Windows
+## PS和cmd命令之间的关系
+```
+在 PowerShell 中，可以使用大部分命令提示符（cmd）中的命令，但并不是所有的命令都能在 PowerShell 中完全等效地使用。例如，一些 cmd 中的命令可能有不同的语法或行为，或者在 PowerShell 中可能不存在直接的等效命令。
+```
 ## PS command
 ## env varibales
 - [x] $env:, **临时性设置环境变量, 注意cmd中的set命令丧失作用, 必须用$env:**
